@@ -37,7 +37,7 @@ class StudentForm(tk.Tk):
         tk.Checkbutton(courses_frame, text='Java', variable=self.course_java_var).grid(row=0, column=2, padx=10, pady=5)
 
 
-        self.submit_btn = tk.Button(self, text='Submit', command=self.submit)
+        self.submit_btn = tk.Button(self, text='sub', command=self.submit)
         self.submit_btn.grid(row=3, column=1, pady=10)
 
         self.listbox = tk.Listbox(self, width=70)
