@@ -3,7 +3,7 @@ import tkinter as tk
 class StudentForm(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Student")
+        self.title("teacher")
 
         self.records = []
 
